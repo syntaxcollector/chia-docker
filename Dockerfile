@@ -26,4 +26,4 @@ WORKDIR /chia-blockchain
 RUN mkdir /plots
 ADD ./entrypoint.sh entrypoint.sh
 
-ENTRYPOINT ["bash", "./entrypoint.sh"]
+ENTRYPOINT ["bash", "./entrypoint.sh"] 
